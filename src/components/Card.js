@@ -96,7 +96,7 @@ const Card = ({ movie }) => {
   //Fonction pour supprimer des favoris
   const deleteStorage = () => {
     let storedData = window.localStorage.movies.split(",");
-    let newData = storedData.filter((id) => id != movie.id); // Via l'ID
+    let newData = storedData.filter((id) => id !== movie.id); // Via l'ID
     window.localStorage.movies = newData;
   };
 
