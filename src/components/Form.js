@@ -54,6 +54,8 @@ const Form = () => {
             } else if (sortGoodBad === "badToGood") {
               return a.vote_average - b.vote_average;
             }
+            // Valeur de retour par défaut (tri inchangé)
+            return 0;
           })
           .map((movie) => (
             <Card movie={movie} key={movie.id} /> // On map les résultat dans notre composant Card à qui on lui passe la props movie
