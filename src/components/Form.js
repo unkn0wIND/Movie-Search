@@ -21,7 +21,7 @@ const Form = () => {
         <form>
           <input
             type="text"
-            placeholder="Entrez le tittre d'un film"
+            placeholder="Entrez le titre d'un film"
             id="search-input"
             onChange={(e) => setSearch(e.target.value)} // On récupère ce qui est taper dans l'input et on le passe au state setSearch
           />
