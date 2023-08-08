@@ -24,7 +24,7 @@ const Header = () => {
           </li>
         </ul>
       </nav>
-      <h1>React Movie APP</h1>
+      <h1>DEV-MOVIE</h1>
     </div>
   );
 };
