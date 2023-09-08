@@ -1,4 +1,4 @@
-# #React Movie Filter
+# React Movie Filter
 
 REACT JS<br>
 AXIOS FOR API FETCH
